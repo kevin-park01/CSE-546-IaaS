@@ -130,3 +130,6 @@ dmypy.json
 
 # Config file
 config.py
+
+# Uploaded images
+workload_generator/upload_images

@@ -28,8 +28,10 @@ class EC2:
         instance = self.ec2_resource.create_instances(
             ImageId=config.MODEL_IMAGE_ID,
             MinCount=1,
-            MaxCount=1
+            MaxCount=1,
+            UserData=config.USER_DATA
         )
+        
         return instance[0]
 
 

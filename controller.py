@@ -29,8 +29,6 @@ def main():
     ec2.stop_web_instance()
     '''
 
-    
-
 
 if __name__ == '__main__':
     main()
